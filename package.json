@@ -1,0 +1,25 @@
+{
+    "name": "vscode-pbtxt",
+    "displayName": "Protobuf Text Format",
+    "description": "Protocol Buffer Text Format syntax highlighting for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pbtxt",
+            "aliases": ["Protocol Buffers Text Format", "pbtxt"],
+            "extensions": [".pbtxt",".prototxt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pbtxt",
+            "scopeName": "source.pbtxt",
+            "path": "./syntaxes/pbtxt.tmLanguage.json"
+        }]
+    }
+}
