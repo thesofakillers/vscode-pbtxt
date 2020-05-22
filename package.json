@@ -10,16 +10,27 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "pbtxt",
-            "aliases": ["Protocol Buffers Text Format", "pbtxt"],
-            "extensions": [".pbtxt",".prototxt"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "pbtxt",
-            "scopeName": "source.pbtxt",
-            "path": "./syntaxes/pbtxt.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "pbtxt",
+                "aliases": [
+                    "Protocol Buffers Text Format",
+                    "pbtxt",
+                    "Textual Protobuf"
+                ],
+                "extensions": [
+                    ".pbtxt",
+                    ".prototxt"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pbtxt",
+                "scopeName": "source.pbtxt",
+                "path": "./syntaxes/pbtxt.tmLanguage.json"
+            }
+        ]
     }
 }
