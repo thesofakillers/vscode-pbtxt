@@ -14,7 +14,7 @@
             {
                 "id": "pbtxt",
                 "aliases": [
-                    "Protocol Buffers Text Format",
+                    "Protocol Buffer Text Format",
                     "pbtxt",
                     "Textual Protobuf"
                 ],
@@ -32,5 +32,11 @@
                 "path": "./syntaxes/pbtxt.tmLanguage.json"
             }
         ]
-    }
+    },
+    "publisher": "thesofakillers",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thesofakillers/vscode-pbtxt"
+    },
+    "icon": "logo.png"
 }
