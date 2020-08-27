@@ -8,6 +8,6 @@ This is a very basic VS Code extension that I made because I wanted my `.pbtxt` 
 
 ![demo](https://user-images.githubusercontent.com/26286291/82671253-82f08c80-9c79-11ea-918f-20bd3114b8f9.png)
 
-## Acknwoledgements
+## Acknowledgements
 
 This is simply a port of [malmaud/atom-pbtxt](https://github.com/malmaud/atom-pbtxt).
