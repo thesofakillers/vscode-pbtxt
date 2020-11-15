@@ -1,0 +1,38 @@
+# File for testing syntax highlighting is working
+# Press F5 and try reading this file
+
+constant_int: -1
+constant_string: "Wow"
+
+# string parsing tests
+string {
+  string_single: 'test'
+  string_double: "test"
+  string_double_in_single: 'wow this is "pretty" cool'
+  string_single_in_double: "yea I 'know'!"
+  string_double_in_double: "How about \"that\""
+  string_single_in_single: 'This is a \'test\''
+}
+
+number {
+  float_simple: 2.1
+  float_many: 0.00020302001037854
+  integer_simple: 1
+  integer_many: 44243523452
+}
+
+# VIDEO_PREP: Scale the input video before feature extraction.
+nesting {
+  test_var: "test"
+  level_one: {
+    [class.SubClass.ext]: {
+      another_test: true
+      another_test_two: 480
+      level_two: {
+        [anotherClass.SubClass.ext]: {
+          test_var: "test"
+        }
+      }
+    }
+  }
+}
