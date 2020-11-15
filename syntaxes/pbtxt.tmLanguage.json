@@ -42,7 +42,7 @@
 			"name": "constant.numeric.pbtxt"
 		},
 		"string": {
-			"match": "\"(.*)\"",
+			"match": "\"(.*)\"|'(.*)'",
 			"name": "string.quoted.pbtxt"
 		},
 		"field": {
