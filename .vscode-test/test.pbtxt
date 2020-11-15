@@ -1,5 +1,4 @@
 # File for testing syntax highlighting is working
-# Press F5 and try reading this file
 
 constant_int: -1
 constant_string: "Wow"
@@ -12,6 +11,7 @@ string {
   string_single_in_double: "yea I 'know'!"
   string_double_in_double: "How about \"that\""
   string_single_in_single: 'This is a \'test\''
+  field: '{"key": "value"}'
 }
 
 number {
